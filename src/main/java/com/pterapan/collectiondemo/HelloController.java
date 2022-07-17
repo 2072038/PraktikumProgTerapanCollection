@@ -9,16 +9,27 @@ import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
 
+import java.util.ArrayList;
+
 public class HelloController {
+    @FXML
     public TableView table1;
+    @FXML
     public TableColumn column1;
+    @FXML
     public TableColumn column2;
+    @FXML
     public TableColumn column3;
+    @FXML
     public TableColumn column4;
 
+    @FXML
     public TextField txtNrp;
+    @FXML
     public TextField txtNama;
+    @FXML
     public TextField txtIpa;
+    @FXML
     public TextField txtIps;
     
     private ObservableList<Student> oList;
